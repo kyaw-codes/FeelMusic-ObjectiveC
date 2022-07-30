@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "jair-medina-nossa--7Kkov230I0-unsplash-removebg-preview.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

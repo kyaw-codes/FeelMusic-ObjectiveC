@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		C86B0E482895513700B347AD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C86B0E472895513700B347AD /* AppDelegate.m */; };
 		C86B0E4B2895513700B347AD /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C86B0E4A2895513700B347AD /* SceneDelegate.m */; };
-		C86B0E4E2895513700B347AD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C86B0E4D2895513700B347AD /* ViewController.m */; };
 		C86B0E512895513700B347AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C86B0E4F2895513700B347AD /* Main.storyboard */; };
 		C86B0E532895513800B347AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C86B0E522895513800B347AD /* Assets.xcassets */; };
 		C86B0E562895513800B347AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C86B0E542895513800B347AD /* LaunchScreen.storyboard */; };
@@ -17,6 +16,7 @@
 		C86B0E632895513800B347AD /* FeelMusicFBTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C86B0E622895513800B347AD /* FeelMusicFBTests.m */; };
 		C86B0E6D2895513800B347AD /* FeelMusicFBUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C86B0E6C2895513800B347AD /* FeelMusicFBUITests.m */; };
 		C86B0E6F2895513800B347AD /* FeelMusicFBUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C86B0E6E2895513800B347AD /* FeelMusicFBUITestsLaunchTests.m */; };
+		C8A1DC3F289551DF000D3C9C /* StartVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C8A1DC3E289551DF000D3C9C /* StartVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,8 +42,6 @@
 		C86B0E472895513700B347AD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		C86B0E492895513700B347AD /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
 		C86B0E4A2895513700B347AD /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		C86B0E4C2895513700B347AD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		C86B0E4D2895513700B347AD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		C86B0E502895513700B347AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C86B0E522895513800B347AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C86B0E552895513800B347AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -54,6 +52,8 @@
 		C86B0E682895513800B347AD /* FeelMusicFBUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FeelMusicFBUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C86B0E6C2895513800B347AD /* FeelMusicFBUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FeelMusicFBUITests.m; sourceTree = "<group>"; };
 		C86B0E6E2895513800B347AD /* FeelMusicFBUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FeelMusicFBUITestsLaunchTests.m; sourceTree = "<group>"; };
+		C8A1DC3D289551DF000D3C9C /* StartVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StartVC.h; sourceTree = "<group>"; };
+		C8A1DC3E289551DF000D3C9C /* StartVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StartVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,15 +104,9 @@
 		C86B0E452895513700B347AD /* FeelMusicFB */ = {
 			isa = PBXGroup;
 			children = (
-				C86B0E462895513700B347AD /* AppDelegate.h */,
-				C86B0E472895513700B347AD /* AppDelegate.m */,
-				C86B0E492895513700B347AD /* SceneDelegate.h */,
-				C86B0E4A2895513700B347AD /* SceneDelegate.m */,
-				C86B0E4C2895513700B347AD /* ViewController.h */,
-				C86B0E4D2895513700B347AD /* ViewController.m */,
-				C86B0E4F2895513700B347AD /* Main.storyboard */,
-				C86B0E522895513800B347AD /* Assets.xcassets */,
-				C86B0E542895513800B347AD /* LaunchScreen.storyboard */,
+				C86B0E7B2895515500B347AD /* Delegates */,
+				C86B0E7C2895516400B347AD /* Screens */,
+				C8A1DC3C28955181000D3C9C /* Resources */,
 				C86B0E572895513800B347AD /* Info.plist */,
 				C86B0E582895513800B347AD /* main.m */,
 			);
@@ -134,6 +128,36 @@
 				C86B0E6E2895513800B347AD /* FeelMusicFBUITestsLaunchTests.m */,
 			);
 			path = FeelMusicFBUITests;
+			sourceTree = "<group>";
+		};
+		C86B0E7B2895515500B347AD /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				C86B0E462895513700B347AD /* AppDelegate.h */,
+				C86B0E472895513700B347AD /* AppDelegate.m */,
+				C86B0E492895513700B347AD /* SceneDelegate.h */,
+				C86B0E4A2895513700B347AD /* SceneDelegate.m */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		C86B0E7C2895516400B347AD /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				C8A1DC3D289551DF000D3C9C /* StartVC.h */,
+				C8A1DC3E289551DF000D3C9C /* StartVC.m */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		C8A1DC3C28955181000D3C9C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C86B0E4F2895513700B347AD /* Main.storyboard */,
+				C86B0E522895513800B347AD /* Assets.xcassets */,
+				C86B0E542895513800B347AD /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -266,10 +290,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C86B0E4E2895513700B347AD /* ViewController.m in Sources */,
 				C86B0E482895513700B347AD /* AppDelegate.m in Sources */,
 				C86B0E592895513800B347AD /* main.m in Sources */,
 				C86B0E4B2895513700B347AD /* SceneDelegate.m in Sources */,
+				C8A1DC3F289551DF000D3C9C /* StartVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -375,7 +399,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -427,7 +451,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
